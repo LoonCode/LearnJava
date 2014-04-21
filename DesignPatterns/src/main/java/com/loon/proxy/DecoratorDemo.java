@@ -66,6 +66,7 @@ class  TimeStamped extends Decorator {
     private  final  long  timeStamp;
 
     public TimeStamped(Basic basic) {
+
         super(basic);
         this.timeStamp = Calendar.getInstance().getTimeInMillis();
     }

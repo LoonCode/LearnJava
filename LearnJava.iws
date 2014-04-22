@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="io">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NIO/src/main/java/com/example/section2/FileChannelExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NIO/src/main/java/com/example/section2/OpenFileExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Guava/src/main/java/com/example/io/ResourcesExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Guava/src/main/resources/nio-data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NIO/src/main/resources/nio-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Concurrency/Concurrency.iml" afterPath="$PROJECT_DIR$/Concurrency/Concurrency.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.ipr" afterPath="$PROJECT_DIR$/LearnJava.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NIO/src/main/java/com/example/section2/FileChannelExample.java" afterPath="$PROJECT_DIR$/NIO/src/main/java/com/example/section2/FileChannelExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.iws" afterPath="$PROJECT_DIR$/LearnJava.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NIO/NIO.iml" afterPath="$PROJECT_DIR$/NIO/NIO.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guava/pom.xml" afterPath="$PROJECT_DIR$/Guava/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NIO/pom.xml" afterPath="$PROJECT_DIR$/NIO/pom.xml" />
     </list>
     <ignored path="LearnJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +72,8 @@
       <file leaf-file-name="FileChannelExample.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NIO/src/main/java/com/example/section2/FileChannelExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21200751" vertical-offset="419" max-vertical-offset="1026">
-              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.64165103" vertical-offset="114" max-vertical-offset="1026">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -612,6 +603,15 @@
       <updated>1385216698091</updated>
       <workItem from="1398133824131" duration="4265000" />
     </task>
+    <task id="LOCAL-00001" summary="io">
+      <created>1398138621162</created>
+      <updated>1398138621162</updated>
+    </task>
+    <task id="LOCAL-00002" summary="io">
+      <created>1398138817501</created>
+      <updated>1398138817501</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -631,6 +631,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -646,7 +647,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -696,6 +696,7 @@
     </option>
     <MESSAGE value="io" />
     <option name="LAST_COMMIT_MESSAGE" value="io" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -995,8 +996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NIO/src/main/java/com/example/section2/FileChannelExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21200751" vertical-offset="419" max-vertical-offset="1026">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.64165103" vertical-offset="114" max-vertical-offset="1026">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

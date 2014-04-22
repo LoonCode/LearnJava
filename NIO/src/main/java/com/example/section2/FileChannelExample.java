@@ -23,6 +23,7 @@ public class FileChannelExample {
 
         File file = new File(url.toURI());
 
+
 //        RandomAccessFile aFile = new RandomAccessFile(url.toURI(), "rw");
 //        FileChannel inChannel = aFile.getChannel();
 //

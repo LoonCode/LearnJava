@@ -1,19 +1,11 @@
 package com.example.section2;
 
 
-import com.google.common.base.Charsets;
-import com.google.common.io.Files;
-import com.google.common.io.Resources;
-
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.net.URISyntaxException;
-import java.net.URL;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-import java.util.List;
 
 /**
  * FileChannel 写入，读取，写入特定位置，截取
@@ -34,8 +26,8 @@ public class FileChannelExample {
 //        writeDataToFileChannel(inChannel, "1", 2);
 
 
-        // 截取文件流？
-//        inChannel.truncate(2);
+//        inChannel.truncate(2);  // 截取文件流？
+        inChannel.force(true);  // 将文件数据和元数据强制写到磁盘上
 
         //  When you are done using a FileChannel you must close it.
         inChannel.close();

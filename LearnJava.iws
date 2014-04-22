@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="io">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NIO/src/main/java/com/example/section2/SocketChannelExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.iws" afterPath="$PROJECT_DIR$/LearnJava.iws" />
     </list>
     <ignored path="LearnJava.iws" />
@@ -690,7 +689,11 @@
       <created>1398149498951</created>
       <updated>1398149498951</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="io">
+      <created>1398150072198</created>
+      <updated>1398150072198</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

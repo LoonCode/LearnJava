@@ -29,7 +29,6 @@ public class OpenFileExample {
         openFileForURL(url);
         openFileForURL(OpenFileExample.class.getResource("/nio-data.txt"));
 
-        openFileForPath("");
-
+        openFileForPath(OpenFileExample.class.getResource("/nio-data.txt").getFile());
     }
 }

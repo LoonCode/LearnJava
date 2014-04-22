@@ -29,9 +29,9 @@ public class FileChannelExample {
         FileChannel inChannel = aFile.getChannel();
 
         // 以下无法同时执行
-        writeDataToFileChannel(inChannel, "test");
-        readDataToFileChannel(inChannel);
-        writeDataToFileChannel(inChannel, "1", 2);
+//        writeDataToFileChannel(inChannel, "test");
+//        readDataToFileChannel(inChannel);
+//        writeDataToFileChannel(inChannel, "1", 2);
 
 
         // 截取文件流？
@@ -46,6 +46,7 @@ public class FileChannelExample {
     // 写入数据
     public static void writeDataToFileChannel(FileChannel fileChannel, String context) throws IOException {
 
+        //  create buffer with capacity of 48 bytes
         ByteBuffer buf = ByteBuffer.allocate(48);
         buf.clear();
         buf.put(context.getBytes());
@@ -61,23 +62,22 @@ public class FileChannelExample {
     public static void readDataToFileChannel(FileChannel fileChannel) throws IOException {
 
         //  First a Buffer is allocated. The data read from the FileChannel is read into the Buffer.
-        ByteBuffer buf = ByteBuffer.allocate(48);
+        ByteBuffer buf = ByteBuffer.allocate(48);   //  create buffer with capacity of 48 bytes
 
         //  Second the FileChannel.read() method is called. This method reads data from the FileChannel into theBuffer.
         // The int returned by the read() method tells how many bytes were witten into the Buffer. If -1 is returned,
         // the end-of-file is reached.
-        int bytesRead = fileChannel.read(buf);
+        int bytesRead = fileChannel.read(buf);  // read into buffer.
         while (bytesRead != -1) {
 
             System.out.println("Read " + bytesRead);
-            // 反转Buffer
-            buf.flip();
+            buf.flip(); //make buffer ready for read
 
             while (buf.hasRemaining()) {
-                System.out.print((char) buf.get());
+                System.out.print((char) buf.get());  // read 1 byte at a time
             }
 
-            buf.clear();
+            buf.clear();  //make buffer ready for writing
             bytesRead = fileChannel.read(buf);
         }
 

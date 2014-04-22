@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="中断线程">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/FileSearch.java" />
+    <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="捕获中断线程动作">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/FileSearch.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/FileSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.iws" afterPath="$PROJECT_DIR$/LearnJava.iws" />
     </list>
     <ignored path="LearnJava.iws" />
@@ -153,8 +153,8 @@
       <file leaf-file-name="FileSearch.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/FileSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9643527" vertical-offset="512" max-vertical-offset="1444">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.17636022" vertical-offset="968" max-vertical-offset="1501">
+              <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -848,7 +848,11 @@
       <created>1398158107963</created>
       <updated>1398158107963</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="捕获中断线程动作">
+      <created>1398158854719</created>
+      <updated>1398158854719</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -935,7 +939,8 @@
     <MESSAGE value="&#10;" />
     <MESSAGE value="&#10;线程状态" />
     <MESSAGE value="中断线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="中断线程" />
+    <MESSAGE value="捕获中断线程动作" />
+    <option name="LAST_COMMIT_MESSAGE" value="捕获中断线程动作" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1230,7 +1235,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="817">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1240,7 +1245,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1362,8 +1367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/FileSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9643527" vertical-offset="512" max-vertical-offset="1444">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.17636022" vertical-offset="968" max-vertical-offset="1501">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

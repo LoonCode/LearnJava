@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Loon on 2014/4/22.
+ * source:http://ifeve.com/thread-management-7/
  */
 public class DataSourcesLoader implements Runnable {
     public static void main(String[] args) {

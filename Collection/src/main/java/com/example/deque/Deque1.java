@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by Loon on 2014/4/23.
  * 双向队列
- * references：http://www.stanford.edu/group/coursework/docsTech/jgl/api/com.objectspace.jgl.examples.DequeExamples.html
+ * @link http://www.stanford.edu/group/coursework/docsTech/jgl/api/com.objectspace.jgl.examples.DequeExamples.html
  */
 public class Deque1 {
 

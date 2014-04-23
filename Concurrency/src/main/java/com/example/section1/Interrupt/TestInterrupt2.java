@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Loon on 2014/4/23.
+ * @link http://blog.csdn.net/vernonzheng/article/details/8249577
  */
 public class TestInterrupt2 {
     public static void main(String[] args) {

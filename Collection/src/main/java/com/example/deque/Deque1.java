@@ -4,6 +4,8 @@ import java.util.*;
 
 /**
  * Created by Loon on 2014/4/23.
+ * 双向队列
+ * references：http://www.stanford.edu/group/coursework/docsTech/jgl/api/com.objectspace.jgl.examples.DequeExamples.html
  */
 public class Deque1 {
 
@@ -29,10 +31,10 @@ public class Deque1 {
 
 
         System.out.println("Demonstrate access");
-//        System.out.println("deque.at( 0 ) = " + deque.at(0));
         System.out.println("deque.getFirst() = " + deque.getFirst());
+        System.out.println("find if element exists in deque " + deque.contains("ape"));
+        System.out.println("find  element  in deque " + deque.contains("ape1"));
         System.out.println("deque.element() = " + deque.element());
-//        System.out.println("deque.at( 2 ) = " + deque.at(2));
         System.out.println("deque.getLast() = " + deque.getLast());
         System.out.println();
 

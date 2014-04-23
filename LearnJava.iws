@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="修改注释">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collection/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Enum/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reflection/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Util/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collection/Collection.iml" afterPath="$PROJECT_DIR$/Collection/Collection.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" afterPath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Enum/Enum.iml" afterPath="$PROJECT_DIR$/Enum/Enum.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.ipr" afterPath="$PROJECT_DIR$/LearnJava.ipr" />
+    <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="修改maven目录结构">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.iws" afterPath="$PROJECT_DIR$/LearnJava.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reflection/Reflection.iml" afterPath="$PROJECT_DIR$/Reflection/Reflection.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" afterPath="$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Concurrency/pom.xml" afterPath="$PROJECT_DIR$/Concurrency/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guava/pom.xml" afterPath="$PROJECT_DIR$/Guava/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringSecurity/pom.xml" afterPath="$PROJECT_DIR$/SpringSecurity/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="LearnJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,8 +82,18 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39212006" vertical-offset="0" max-vertical-offset="855">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.64165103" vertical-offset="114" max-vertical-offset="931">
+              <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,16 +169,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NIO/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="627">
-              <caret line="23" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -223,7 +209,6 @@
         <option value="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/Daemon/CleanerTask.java" />
         <option value="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/Daemon/Main.java" />
         <option value="$PROJECT_DIR$/references.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/com/example/singleton/SingletonExample2.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/com/example/singleton/SingletonExample.java" />
@@ -239,6 +224,7 @@
         <option value="$PROJECT_DIR$/Reflection/pom.xml" />
         <option value="$PROJECT_DIR$/SpringSecurity/pom.xml" />
         <option value="$PROJECT_DIR$/Util/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -356,34 +342,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Util" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Reflection" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -795,7 +753,15 @@
       <created>1398233228215</created>
       <updated>1398233228215</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="修改maven目录结构">
+      <created>1398236171335</created>
+      <updated>1398236171335</updated>
+    </task>
+    <task id="LOCAL-00031" summary="修改maven目录结构">
+      <created>1398236391549</created>
+      <updated>1398236391549</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -916,7 +882,8 @@
     <MESSAGE value="排除项目文件" />
     <MESSAGE value="线程中断测试" />
     <MESSAGE value="修改注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改注释" />
+    <MESSAGE value="修改maven目录结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改maven目录结构" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1113,14 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
           <caret line="3" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1348,10 +1307,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39212006" vertical-offset="0" max-vertical-offset="855">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.64165103" vertical-offset="114" max-vertical-offset="931">
+          <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
           <folding />
         </state>
       </provider>

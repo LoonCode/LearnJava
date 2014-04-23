@@ -171,10 +171,15 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Collection/Collection.iml" filepath="$PROJECT_DIR$/Collection/Collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/Concurrency/Concurrency.iml" filepath="$PROJECT_DIR$/Concurrency/Concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Enum/Enum.iml" filepath="$PROJECT_DIR$/Enum/Enum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Guava/Guava.iml" filepath="$PROJECT_DIR$/Guava/Guava.iml" />
       <module fileurl="file://$PROJECT_DIR$/NIO/NIO.iml" filepath="$PROJECT_DIR$/NIO/NIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection/Reflection.iml" filepath="$PROJECT_DIR$/Reflection/Reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" filepath="$PROJECT_DIR$/SpringSecurity/SpringSecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Util/Util.iml" filepath="$PROJECT_DIR$/Util/Util.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">

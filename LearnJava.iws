@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="双向队列操作">
+    <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="新增参考地址">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.iws" afterPath="$PROJECT_DIR$/LearnJava.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -123,8 +123,8 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28517824" vertical-offset="0" max-vertical-offset="533">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.14258912" vertical-offset="0" max-vertical-offset="533">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -711,7 +711,11 @@
       <created>1398231047332</created>
       <updated>1398231047332</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="新增参考地址">
+      <created>1398231118785</created>
+      <updated>1398231118785</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -824,7 +828,8 @@
     <MESSAGE value="源地址" />
     <MESSAGE value="线程中断&#10;" />
     <MESSAGE value="双向队列操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="双向队列操作" />
+    <MESSAGE value="新增参考地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增参考地址" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1236,8 +1241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28517824" vertical-offset="0" max-vertical-offset="533">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.14258912" vertical-offset="0" max-vertical-offset="285">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>

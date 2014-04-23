@@ -21,9 +21,9 @@ public class CallableDemo {
             try {
                 System.out.println(str.get());
             } catch (InterruptedException e) {
-                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                e.printStackTrace();
             } catch (ExecutionException e) {
-                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                e.printStackTrace();
             } finally {
                 executorService.shutdown();
             }

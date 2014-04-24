@@ -1,4 +1,4 @@
-package com.example.section1.Interrupt;
+package com.example.section1.interruptExample;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;

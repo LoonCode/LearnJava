@@ -1,7 +1,8 @@
-package com.example.section1.Interrupt;
+package com.example.section1.interruptExample;
 
 /**
  * Created by Loon on 2014/4/23.
+ *
  * @link http://blog.csdn.net/vernonzheng/article/details/8249577
  */
 public class TestInterrupt3 {

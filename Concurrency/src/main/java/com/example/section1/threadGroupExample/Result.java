@@ -2,6 +2,7 @@ package com.example.section1.threadGroupExample;
 
 /**
  * Created by Loon on 2014/4/24.
+ * @link http://ifeve.com/thread-management-11/
  */
 public class Result {
 

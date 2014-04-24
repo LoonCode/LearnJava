@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Loon on 2014/4/24.
+ * @link http://ifeve.com/thread-management-11/
  */
 public class SearchTask implements Runnable {
 

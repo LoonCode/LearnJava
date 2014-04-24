@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="修改目录结构">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/Main.java" />
+    <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="本地线程变量">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/SafeTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.iws" afterPath="$PROJECT_DIR$/LearnJava.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/UnsafeTask.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/UnsafeTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/Main.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/Main.java" />
     </list>
     <ignored path="LearnJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,24 +92,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/Main.java">
+      <file leaf-file-name="SafeTask.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/SafeTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35834897" vertical-offset="18" max-vertical-offset="551">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-              <folding />
+            <state vertical-scroll-proportion="0.32082552" vertical-offset="19" max-vertical-offset="627">
+              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/cancelTask/Task.java">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -199,7 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/NIO/src/main/java/Channle.java" />
         <option value="$PROJECT_DIR$/NIO/src/main/resources/nio-data.txt" />
         <option value="$PROJECT_DIR$/NIO/pom.xml" />
         <option value="$PROJECT_DIR$/Guava/src/main/java/com/example/io/ResourcesExample.java" />
@@ -249,6 +249,7 @@
         <option value="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/cancelTask/Task.java" />
         <option value="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/Daemon/Event.java" />
         <option value="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/UnsafeTask.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/SafeTask.java" />
         <option value="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/Main.java" />
       </list>
     </option>
@@ -951,7 +952,11 @@
       <created>1398310690557</created>
       <updated>1398310690557</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="本地线程变量">
+      <created>1398311521053</created>
+      <updated>1398311521053</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1087,7 +1092,8 @@
     <MESSAGE value="取消任务" />
     <MESSAGE value="test" />
     <MESSAGE value="修改目录结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改目录结构" />
+    <MESSAGE value="本地线程变量" />
+    <option name="LAST_COMMIT_MESSAGE" value="本地线程变量" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1102,13 +1108,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/NetworkConnectionsLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/DataSourcesLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
@@ -1485,9 +1484,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35834897" vertical-offset="18" max-vertical-offset="551">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/SafeTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32082552" vertical-offset="19" max-vertical-offset="627">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

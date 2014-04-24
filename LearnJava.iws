@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="修改目录结构">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/UnsafeTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.ipr" afterPath="$PROJECT_DIR$/LearnJava.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.iws" afterPath="$PROJECT_DIR$/LearnJava.iws" />
     </list>
     <ignored path="LearnJava.iws" />
@@ -83,8 +81,8 @@
       <file leaf-file-name="UnsafeTask.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/UnsafeTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28517824" vertical-offset="0" max-vertical-offset="533">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.39212006" vertical-offset="0" max-vertical-offset="533">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -940,7 +938,11 @@
       <created>1398310266302</created>
       <updated>1398310266302</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="修改目录结构">
+      <created>1398310640114</created>
+      <updated>1398310640114</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1462,8 +1464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/section1/localThreadVariables/UnsafeTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28517824" vertical-offset="0" max-vertical-offset="533">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.39212006" vertical-offset="0" max-vertical-offset="533">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

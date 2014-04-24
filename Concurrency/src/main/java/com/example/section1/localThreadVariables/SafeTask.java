@@ -11,6 +11,7 @@ public class SafeTask implements Runnable {
     private static ThreadLocal<Date> startDate = new ThreadLocal<Date>() {
         protected Date initialValue() {
             return new Date();
+
         }
     };
 

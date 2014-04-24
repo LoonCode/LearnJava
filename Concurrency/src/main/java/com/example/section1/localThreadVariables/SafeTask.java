@@ -11,7 +11,6 @@ public class SafeTask implements Runnable {
     private static ThreadLocal<Date> startDate = new ThreadLocal<Date>() {
         protected Date initialValue() {
             return new Date();
-
         }
     };
 
@@ -26,3 +25,5 @@ public class SafeTask implements Runnable {
         System.out.printf("Thread Finished: %s : %s\n", Thread.currentThread().getId(), startDate.get());
     }
 }
+
+

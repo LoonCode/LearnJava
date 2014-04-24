@@ -11,6 +11,7 @@ public class Event {
     private String event;
 
     public Date getDate() {
+
         return date;
     }
 

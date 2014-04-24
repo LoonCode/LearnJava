@@ -2,6 +2,7 @@ package com.example.section1.threadFactory;
 
 /**
  * Created by Loon on 2014/4/24.
+ * @link http://ifeve.com/thread-management-13/
  */
 public class Main {
     public static void main(String[] args) {

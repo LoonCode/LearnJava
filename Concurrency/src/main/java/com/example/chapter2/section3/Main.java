@@ -17,6 +17,7 @@ public class Main {
         thread1.start();
         thread2.start();
 
+        // todo: 此处实现的同步的方法为join方法 ，非synchronized关键字？
         try {
             thread1.join();
             thread2.join();

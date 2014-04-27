@@ -1,52 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="Join方法操作，">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/section3/Cinema.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/section3/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/section3/TicketOffice1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/section3/TicketOffice2.java" />
+    <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="在同步的类里安排独立属性">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.iws" afterPath="$PROJECT_DIR$/LearnJava.iws" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\Calculator.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/Calculator.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\DataSourcesLoader.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/DataSourcesLoader.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\FileSearch.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/FileSearch.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\NetworkConnectionsLoader.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/NetworkConnectionsLoader.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\ThreadInterruptedExample.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/ThreadInterruptedExample.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\ThreadStatus.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/ThreadStatus.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\cancelTask\Main.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/cancelTask/Main.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\cancelTask\Task.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/cancelTask/Task.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\daemonExample\CleanerTask.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/daemonExample/CleanerTask.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\daemonExample\Event.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/daemonExample/Event.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\daemonExample\Main.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/daemonExample/Main.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\daemonExample\WriterTask.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/daemonExample/WriterTask.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\exceptionHandler\ExceptionHandler.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/exceptionHandler/ExceptionHandler.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\exceptionHandler\Main.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/exceptionHandler/Main.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\exceptionHandler\Task.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/exceptionHandler/Task.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\interruptExample\FileClock.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/interruptExample/FileClock.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\interruptExample\TestInterrupt.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/interruptExample/TestInterrupt.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\interruptExample\TestInterrupt2.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/interruptExample/TestInterrupt2.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\interruptExample\TestInterrupt3.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/interruptExample/TestInterrupt3.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\localThreadVariables\Main.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/localThreadVariables/Main.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\localThreadVariables\SafeTask.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/localThreadVariables/SafeTask.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\localThreadVariables\UnsafeTask.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/localThreadVariables/UnsafeTask.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\threadFactory\Main.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/threadFactory/Main.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\threadFactory\Task.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/threadFactory/Task.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\threadFactory\ThreadFactoryExample.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/threadFactory/ThreadFactoryExample.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\threadGroupExample\Main.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/threadGroupExample/Main.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\threadGroupExample\Result.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/threadGroupExample/Result.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\threadGroupExample\SearchTask.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/threadGroupExample/SearchTask.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\threadGroupExceptionExample\Main.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/threadGroupExceptionExample/Main.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\threadGroupExceptionExample\Task.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/threadGroupExceptionExample/Task.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section1\threadGroupExceptionExample\ThreadGroupException.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/threadGroupExceptionExample/ThreadGroupException.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section2\synchroinzation\Account.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/synchroinzation/Account.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section2\synchroinzation\Bank.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/synchroinzation/Bank.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section2\synchroinzation\Company.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/synchroinzation/Company.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section2\synchroinzation\JoinTest.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/thread/JoinExample.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Concurrency\src\main\java\com\example\section2\synchroinzation\Main.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/synchroinzation/Main.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\NIO\src\main\java\com\example\section2\BufferExample.java" afterPath="$PROJECT_DIR$/NIO/src/main/java/com/example/chapter2/BufferExample.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\NIO\src\main\java\com\example\section2\FileChannelExample.java" afterPath="$PROJECT_DIR$/NIO/src/main/java/com/example/chapter2/FileChannelExample.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\NIO\src\main\java\com\example\section2\OpenFileExample.java" afterPath="$PROJECT_DIR$/NIO/src/main/java/com/example/chapter2/OpenFileExample.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\NIO\src\main\java\com\example\section2\SocketChannelExample.java" afterPath="$PROJECT_DIR$/NIO/src/main/java/com/example/chapter2/SocketChannelExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/section3/Main.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/section3/Main.java" />
     </list>
     <ignored path="LearnJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -166,12 +123,12 @@
         <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/section3/Cinema.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1273">
-              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="22" />
               <folding>
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
-                <element signature="e#1457#1458#0" expanded="true" />
-                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1322#1323#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1402#1403#0" expanded="true" />
+                <element signature="e#1441#1442#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,8 +140,8 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
               <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -196,8 +153,8 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="570">
               <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="31" />
               <folding>
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -206,8 +163,8 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/section3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4652908" vertical-offset="151" max-vertical-offset="684">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.50093806" vertical-offset="151" max-vertical-offset="703">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -1122,7 +1079,11 @@
       <created>1398563803830</created>
       <updated>1398563803830</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="在同步的类里安排独立属性">
+      <created>1398570429401</created>
+      <updated>1398570429401</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1238,7 +1199,6 @@
     </option>
     <confirmMoveToFailedCommit value="1" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
-    <MESSAGE value="中断线程" />
     <MESSAGE value="捕获中断线程动作" />
     <MESSAGE value="线程中断和恢复" />
     <MESSAGE value="等待线程的终结" />
@@ -1263,7 +1223,8 @@
     <MESSAGE value="线程工厂创建线程" />
     <MESSAGE value="ForkJoin框架" />
     <MESSAGE value="Join方法操作，" />
-    <option name="LAST_COMMIT_MESSAGE" value="Join方法操作，" />
+    <MESSAGE value="在同步的类里安排独立属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="在同步的类里安排独立属性" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1445,10 +1406,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
           <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding>
-            <element signature="e#216#217#0" expanded="false" />
-            <element signature="e#243#244#0" expanded="false" />
-            <element signature="e#283#284#0" expanded="false" />
-            <element signature="e#315#316#0" expanded="false" />
+            <element signature="e#219#220#0" expanded="false" />
+            <element signature="e#246#247#0" expanded="false" />
+            <element signature="e#286#287#0" expanded="false" />
+            <element signature="e#318#319#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1459,8 +1420,8 @@
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#338#339#0" expanded="false" />
-            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#377#378#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1586,7 +1547,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1652,8 +1613,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="570">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="31" />
           <folding>
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1663,8 +1624,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="589">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1672,20 +1633,20 @@
     <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/section3/Cinema.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1273">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="22" />
           <folding>
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/section3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4652908" vertical-offset="151" max-vertical-offset="684">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.50093806" vertical-offset="151" max-vertical-offset="703">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding />
         </state>
       </provider>

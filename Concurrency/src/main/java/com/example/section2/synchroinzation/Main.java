@@ -19,6 +19,7 @@ public class Main {
         companyThread.start();
         bankThread.start();
 
+        // 此处为什么要阻塞线程？
         try {
             companyThread.join();
             bankThread.join();

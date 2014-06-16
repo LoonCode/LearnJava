@@ -7,18 +7,34 @@ import java.util.concurrent.atomic.AtomicLong;
  */
 public class Counter {
 
-    private AtomicLong currentValue = new AtomicLong();   // 当前值
-    private Long count; // 总数
+    private static AtomicLong currentValue = new AtomicLong(0);   // 当前值
+    private static Long count; // 总数
 
-    public Counter(Long count) {
-        this.count = count;
+    public static void init(Long count) {
+        Counter.currentValue = new AtomicLong(0);
+        Counter.count = count;
+        //System.out.println("===========" + currentValue);
     }
 
-    public double getProgressValue() {
-        return currentValue.get() / count;
+
+    /**
+     * 获取当前进程值
+     *
+     * @return 进程值
+     */
+    public static double getProgressValue() {
+        //System.out.println(currentValue + "+++++++++++" + count);
+        return currentValue.doubleValue() / count.doubleValue();
     }
 
-    public void plusOne() {
+    /**
+     * 对计数器进行加一
+     */
+    public static void plusOne() {
         currentValue.incrementAndGet();
+    }
+
+    public static void plusMany(long value) {
+        currentValue.addAndGet(value);
     }
 }

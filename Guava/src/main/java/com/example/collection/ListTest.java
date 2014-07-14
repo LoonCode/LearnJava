@@ -46,6 +46,7 @@ public class ListTest {
     public static void transformListToMap() {
         List<Person> stringList = newArrayList(new Person("test", 12), new Person("test2", 22), new Person("test3", 32));
 
+
         Map<String, Person> map = Maps.uniqueIndex(stringList, new Function<Person, String>() {
             @Override
             public String apply(Person person) {

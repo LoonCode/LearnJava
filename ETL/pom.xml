@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>LearnJava</artifactId>
+        <groupId>LearnJava</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ETL</artifactId>
+
+    <properties>
+        <pentaho.kettle.version>5.1.0.0-752</pentaho.kettle.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>pentaho-kettle</groupId>
+            <artifactId>kettle-core</artifactId>
+            <version>${pentaho.kettle.version}</version>
+        </dependency>
+        <!--<dependency>-->
+        <!--<groupId>pentaho.kettle</groupId>-->
+        <!--<artifactId>kettle-engine</artifactId>-->
+        <!--<version>${pentaho.kettle.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+        <!--<groupId>pentaho.kettle</groupId>-->
+        <!--<artifactId>kettle-db</artifactId>-->
+        <!--<version>${pentaho.kettle.version}</version>-->
+        <!--</dependency>-->
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>pentaho-releases</id>
+            <url>http://repository.pentaho.org/artifactory/repo/</url>
+        </repository>
+    </repositories>
+
+
+</project>

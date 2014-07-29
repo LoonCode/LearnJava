@@ -21,6 +21,7 @@
         <module>Util</module>
         <module>Storm</module>
         <module>Generics</module>
+        <module>ETL</module>
     </modules>
 
     <properties>

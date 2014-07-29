@@ -13,6 +13,11 @@
 
     <properties>
         <pentaho.kettle.version>5.1.0.0-752</pentaho.kettle.version>
+
+        <!-- JDBC Driver -->
+        <jdbc.driver.groupId>com.oracle</jdbc.driver.groupId>
+        <jdbc.driver.artifactId>ojdbc14</jdbc.driver.artifactId>
+        <jdbc.driver.version>10.2.0.4.0</jdbc.driver.version>
     </properties>
 
     <dependencies>
@@ -31,6 +36,31 @@
         <!--<artifactId>kettle-db</artifactId>-->
         <!--<version>${pentaho.kettle.version}</version>-->
         <!--</dependency>-->
+
+
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>${jdbc.driver.groupId}</groupId>
+            <artifactId>${jdbc.driver.artifactId}</artifactId>
+            <version>${jdbc.driver.version}</version>
+        </dependency>
+
+        <!--  Poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.10-FINAL</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.10-FINAL</version>
+        </dependency>
     </dependencies>
 
     <repositories>

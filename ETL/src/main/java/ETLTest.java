@@ -4,6 +4,9 @@ import org.pentaho.di.core.util.EnvUtil;
 import org.pentaho.di.trans.Trans;
 import org.pentaho.di.trans.TransMeta;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by Loon on 2014/7/28.
  */
@@ -12,11 +15,25 @@ public class ETLTest {
 
     public static void main(String[] args) {
 
-        runTransformation("test2.ktr");
+//        runTransformation("C:\\Users\\IH984\\Desktop\\ETL\\set.ktr",null);
+
+        Map<String, String> paramMap = new HashMap<>();
+        paramMap.put("CONFIG_DIR", "path");
+        runTransformation("path\\set.ktr", paramMap);
+
+//        Type - "s"ystem, "r"oot, "p"arent, "g"randparent. Upto which  level the variable is set.
+//
+//                Java Virtual Machine：S系统级作用域，凡是在一个java虚拟机下运行的线程都受其影响。
+//
+//        parent job：在当前作业下是生效的。
+//
+//        grand-parent job：在当前作业的父作业下是生效的。
+//
+//        the root job：R级作用域，凡是在跟作业下运行的都是生效的。
 
     }
 
-    public static void runTransformation(String filename) {
+    public static void runTransformation(String filename, Map<String, String> paramMap) {
 
         try {
             KettleEnvironment.init();
@@ -24,7 +41,19 @@ public class ETLTest {
             TransMeta transMeta = new TransMeta(filename);
             Trans trans = new Trans(transMeta);
 
-            trans.execute(null); // You can pass arguments instead of null.
+            if (paramMap != null && !paramMap.isEmpty()) {
+                for (Map.Entry<String, String> paramEntry : paramMap.entrySet()) {
+                    trans.setVariable(paramEntry.getKey(), paramEntry.getValue());
+                }
+            }
+
+            // set variavle. same can be retrieved using "Get Variables" step
+            //trans.setVariable("TEST_VARIABLE_FROM_JAVA", "This value is passsed from java");
+
+            // set parameter. same can be used inside steps in transformation
+            //trans.setParameterValue("JAVA_PARAM", "java param value");
+
+            trans.execute(null);
             trans.waitUntilFinished();
             if (trans.getErrors() > 0) {
                 throw new RuntimeException("There were errors during transformation execution.");
@@ -34,7 +63,6 @@ public class ETLTest {
             e.printStackTrace();
         }
     }
-
 
 
 }

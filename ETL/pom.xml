@@ -21,6 +21,8 @@
     </properties>
 
     <dependencies>
+
+        <!--  kettle -->
         <dependency>
             <groupId>pentaho-kettle</groupId>
             <artifactId>kettle-core</artifactId>
@@ -31,12 +33,6 @@
         <!--<artifactId>kettle-engine</artifactId>-->
         <!--<version>${pentaho.kettle.version}</version>-->
         <!--</dependency>-->
-        <!--<dependency>-->
-        <!--<groupId>pentaho.kettle</groupId>-->
-        <!--<artifactId>kettle-db</artifactId>-->
-        <!--<version>${pentaho.kettle.version}</version>-->
-        <!--</dependency>-->
-
 
         <dependency>
             <groupId>javax.mail</groupId>
@@ -45,10 +41,17 @@
         </dependency>
 
         <dependency>
-            <groupId>${jdbc.driver.groupId}</groupId>
+            <groupId>org.mozilla</groupId>
+            <artifactId>rhino</artifactId>
+            <version>1.7R4</version>
+        </dependency>
+
+        <dependency>
+        <groupId>${jdbc.driver.groupId}</groupId>
             <artifactId>${jdbc.driver.artifactId}</artifactId>
             <version>${jdbc.driver.version}</version>
         </dependency>
+
 
         <!--  Poi -->
         <dependency>

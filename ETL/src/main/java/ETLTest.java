@@ -1,11 +1,16 @@
+import com.google.common.collect.Maps;
+import com.google.common.io.Files;
 import org.pentaho.di.core.KettleEnvironment;
 import org.pentaho.di.core.exception.KettleException;
 import org.pentaho.di.core.util.EnvUtil;
 import org.pentaho.di.trans.Trans;
 import org.pentaho.di.trans.TransMeta;
 
-import java.util.HashMap;
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.Map;
+import java.util.Properties;
 
 /**
  * Created by Loon on 2014/7/28.
@@ -15,11 +20,25 @@ public class ETLTest {
 
     public static void main(String[] args) {
 
-//        runTransformation("C:\\Users\\IH984\\Desktop\\ETL\\set.ktr",null);
+//        runTransformation("C:\\Users\\Desktop\\ETL\\set.ktr",null);
 
-        Map<String, String> paramMap = new HashMap<>();
-        paramMap.put("CONFIG_DIR", "path");
-        runTransformation("path\\set.ktr", paramMap);
+        File file = new File("C:\\Users\\Desktop\\ETL\\config.properties");
+
+        Properties properties = new Properties();
+
+        try {
+            properties.load(Files.newReader(file, Charset.defaultCharset()));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        Map<String, String> variableMap = Maps.fromProperties(properties);
+
+
+        runTransformation("C:\\Users\\Desktop\\ETL\\下发.ktr", variableMap); //
+//        Map<String, String> paramMap = new HashMap<>();
+//        paramMap.put("CONFIG_DIR", "path");
+//        runTransformation("path\\set.ktr", paramMap);
 
 //        Type - "s"ystem, "r"oot, "p"arent, "g"randparent. Upto which  level the variable is set.
 //

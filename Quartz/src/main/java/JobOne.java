@@ -1,4 +1,3 @@
-import org.quartz.DisallowConcurrentExecution;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
@@ -9,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by Loon on 2014/9/18.
  */
-@DisallowConcurrentExecution
+//@DisallowConcurrentExecution
 public class JobOne implements Job {
 
     @Override

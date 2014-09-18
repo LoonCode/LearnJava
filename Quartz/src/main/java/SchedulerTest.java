@@ -65,6 +65,12 @@ public class SchedulerTest {
 
             // Tell quartz to schedule the job using our trigger
             sched.scheduleJob(job, trigger);
+
+
         }
+
+//        sched.getListenerManager().addJobListener(new AllJobListener(), allJobs());
+//        sched.getListenerManager().addSchedulerListener(new SchedulerListenerTest());
+        sched.getListenerManager().addTriggerListener(new TriggerListenerTest());
     }
 }

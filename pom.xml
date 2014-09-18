@@ -22,6 +22,7 @@
         <module>Storm</module>
         <module>Generics</module>
         <module>ETL</module>
+        <module>Quartz</module>
     </modules>
 
     <properties>

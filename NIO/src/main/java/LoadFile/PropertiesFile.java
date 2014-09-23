@@ -29,7 +29,6 @@ public class PropertiesFile {
 
         Resource resource = new ClassPathResource("config.properties");
         Properties properties = PropertiesLoaderUtils.loadProperties(resource);
-        ;
         Map<String, String> variableMap = Maps.fromProperties(properties);
         return variableMap.get("test");
     }

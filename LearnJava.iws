@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="quartz">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ETL/src/main/resources/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NIO/src/main/java/Channle.java" afterPath="$PROJECT_DIR$/NIO/src/main/java/Channle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ETL/src/main/java/ETLTest.java" afterPath="$PROJECT_DIR$/ETL/src/main/java/ETLTest.java" />
+    <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="获取当前的目录">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.iws" afterPath="$PROJECT_DIR$/LearnJava.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quartz/src/main/java/SchedulerTest.java" afterPath="$PROJECT_DIR$/Quartz/src/main/java/SchedulerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/ThreadStatus.java" afterPath="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter1/ThreadStatus.java" />
     </list>
     <list id="a79906c2-a0f8-4993-a5c2-be59ebdfcebf" name="local" comment="" />
     <ignored path="LearnJava.iws" />
@@ -74,24 +69,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SchedulerTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SchedulerTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Quartz/src/main/java/SchedulerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
-              <caret line="21" column="83" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.46341464" vertical-offset="0" max-vertical-offset="1425">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadCurrentDirectoryFile.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NIO/src/main/java/LoadFile/LoadCurrentDirectoryFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60600376" vertical-offset="171" max-vertical-offset="779">
-              <caret line="26" column="90" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -1582,7 +1565,11 @@
       <created>1411451354541</created>
       <updated>1411451354541</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="获取当前的目录">
+      <created>1411452226337</created>
+      <updated>1411452226337</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1698,7 +1685,6 @@
     </option>
     <confirmMoveToFailedCommit value="1" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
-    <MESSAGE value="线程守护测试&#10;" />
     <MESSAGE value="线程捕获异常" />
     <MESSAGE value="取消任务" />
     <MESSAGE value="test" />
@@ -1723,7 +1709,8 @@
     <MESSAGE value="facade 模式使用，&#10;guava 事件总线" />
     <MESSAGE value="原型" />
     <MESSAGE value="quartz" />
-    <option name="LAST_COMMIT_MESSAGE" value="quartz" />
+    <MESSAGE value="获取当前的目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取当前的目录" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2190,19 +2177,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Quartz/src/main/java/SchedulerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
-          <caret line="21" column="83" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.46341464" vertical-offset="0" max-vertical-offset="1425">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NIO/src/main/java/LoadFile/LoadCurrentDirectoryFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60600376" vertical-offset="171" max-vertical-offset="779">
-          <caret line="26" column="90" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

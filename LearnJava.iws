@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="707e68aa-57ed-44cd-b0ba-8e56a400073b" name="Default" comment="quartz">
-      <change type="DELETED" beforePath="D:\other\LearnJava\Util\Util.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NIO/src/main/java/Channle.java" afterPath="$PROJECT_DIR$/NIO/src/main/java/Channle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.ipr" afterPath="$PROJECT_DIR$/LearnJava.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.iws" afterPath="$PROJECT_DIR$/LearnJava.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NIO/pom.xml" afterPath="$PROJECT_DIR$/NIO/pom.xml" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Util\pom.xml" afterPath="$PROJECT_DIR$/Common/pom.xml" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Util\src\main\java\FormatterDemo.java" afterPath="$PROJECT_DIR$/Common/src/main/java/FormatterDemo.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Util\src\main\java\LearningCalendar.java" afterPath="$PROJECT_DIR$/Common/src/main/java/LearningCalendar.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Util\src\main\java\PropDemo.java" afterPath="$PROJECT_DIR$/Common/src/main/java/PropDemo.java" />
-      <change type="MOVED" beforePath="D:\other\LearnJava\Util\src\main\java\person.properties" afterPath="$PROJECT_DIR$/Common/src/main/java/person.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NIO/NIO.iml" afterPath="$PROJECT_DIR$/NIO/NIO.iml" />
     </list>
     <list id="a79906c2-a0f8-4993-a5c2-be59ebdfcebf" name="local" comment="" />
     <ignored path="LearnJava.iws" />
@@ -76,11 +72,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SchedulerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Quartz/src/main/java/SchedulerTest.java">
+      <file leaf-file-name="LoadCurrentDirectoryFile.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NIO/src/main/java/LoadFile/LoadCurrentDirectoryFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1406">
-              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="703">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileDemo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NIO/src/main/java/FileDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="817">
+              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputDemo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NIO/src/main/java/InputDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Channle.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NIO/src/main/java/Channle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5608856" vertical-offset="171" max-vertical-offset="874">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomAccessFile.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_55/src.zip!/java/io/RandomAccessFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4098" max-vertical-offset="21451">
+              <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -89,94 +127,38 @@
       <file leaf-file-name="CurrentDirectory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NIO/src/main/java/CurrentDirectory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="741">
-              <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="741">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadCurrentDirectoryFile.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NIO/src/main/java/LoadFile/LoadCurrentDirectoryFile.java">
+      <file leaf-file-name="nio-data.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NIO/src/main/resources/nio-data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6330275" vertical-offset="287" max-vertical-offset="703">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertiesFile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NIO/src/main/java/LoadFile/PropertiesFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="779">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassPathResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.2.3.RELEASE/spring-core-3.2.3.RELEASE-sources.jar!/org/springframework/core/io/ClassPathResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4237">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Common.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/Common.iml">
+      <file leaf-file-name="config.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NIO/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
+              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/pom.xml">
+      <file leaf-file-name="LearnJava.iws" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearnJava.iws">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NIO/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="589">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Quartz.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Quartz/Quartz.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Quartz/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="39425">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -202,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Concurrency/src/main/java/com/example/Counter/Counter.java" />
         <option value="$PROJECT_DIR$/Concurrency/src/main/java/com/example/Counter/CounterTest.java" />
         <option value="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/section5/PrintQueue.java" />
         <option value="$PROJECT_DIR$/Concurrency/src/main/java/com/example/chapter2/section5/Job.java" />
@@ -215,7 +196,6 @@
         <option value="$PROJECT_DIR$/Generics/src/main/java/typeinfo/ClassInitialization.java" />
         <option value="$PROJECT_DIR$/Guava/src/main/java/com/example/collection/Person.java" />
         <option value="$PROJECT_DIR$/Guava/src/main/java/com/example/collection/GuavaCollections2.java" />
-        <option value="$PROJECT_DIR$/LearnJava.iws" />
         <option value="$PROJECT_DIR$/Guava/src/main/java/com/example/collection/ListTest.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/com/GoF/builder/MazeBuilder.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/com/GoF/builder/StandardMazeBuilder.java" />
@@ -253,6 +233,8 @@
         <option value="$PROJECT_DIR$/Common/pom.xml" />
         <option value="$PROJECT_DIR$/NIO/pom.xml" />
         <option value="$PROJECT_DIR$/NIO/src/main/java/LoadFile/LoadCurrentDirectoryFile.java" />
+        <option value="$PROJECT_DIR$/LearnJava.iws" />
+        <option value="$PROJECT_DIR$/NIO/src/main/java/Channle.java" />
       </list>
     </option>
   </component>
@@ -718,24 +700,7 @@
       <recent name="D:\other\LearnJava\Guava\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoadCurrentDirectoryFile">
-    <configuration default="false" name="KeyGen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="KeyGen" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Util" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Channle">
     <configuration default="false" name="ETLTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ETLTest" />
@@ -819,6 +784,23 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Channle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Channle" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="NIO" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -1018,19 +1000,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Counter3" />
-      <item index="1" class="java.lang.String" itemvalue="Application.KeyGen" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ETLTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SchedulerTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CurrentDirectory" />
-      <item index="5" class="java.lang.String" itemvalue="Application.LoadCurrentDirectoryFile" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ETLTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SchedulerTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CurrentDirectory" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LoadCurrentDirectoryFile" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Channle" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LoadCurrentDirectoryFile" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CurrentDirectory" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SchedulerTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ETLTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.KeyGen" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Channle" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LoadCurrentDirectoryFile" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CurrentDirectory" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SchedulerTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ETLTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1362,7 +1344,11 @@
       <created>1411449161481</created>
       <updated>1411449161481</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="quartz">
+      <created>1411449322275</created>
+      <updated>1411449322275</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1390,10 +1376,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.403177" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.403177" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1402,14 +1388,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44709897" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2375189" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31543118" sideWeight="0.67017543" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44709897" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31543118" sideWeight="0.67017543" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44709897" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1518,48 +1504,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/com/example/facade/LetterProcessImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/com/example/facade/PostOffice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/com/example/facade/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/com/example/facade/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Guava/src/main/java/com/example/eventBus/EventBusUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/com/example/prototype/Template.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_55/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3376" max-vertical-offset="10089">
@@ -1765,14 +1709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NIO/src/main/java/Channle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generics/src/main/java/typeinfo/ClassInitialization.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1273">
@@ -1853,14 +1789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NIO/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="533">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.0.RELEASE/spring-core-4.1.0.RELEASE.jar!/org/springframework/util/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1358" max-vertical-offset="2603">
@@ -1889,14 +1817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1406">
           <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NIO/src/main/java/CurrentDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="741">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -1961,13 +1881,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LearnJava.iws">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="39026">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NIO/src/main/java/FileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="817">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NIO/src/main/java/InputDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NIO/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="533">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_55/src.zip!/java/io/RandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4098" max-vertical-offset="21451">
+          <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_55/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33208254" vertical-offset="16334" max-vertical-offset="23769">
+          <caret line="936" column="15" selection-start-line="936" selection-start-column="15" selection-end-line="936" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NIO/src/main/java/LoadFile/LoadCurrentDirectoryFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6330275" vertical-offset="287" max-vertical-offset="703">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="703">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NIO/src/main/java/CurrentDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="741">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NIO/src/main/resources/nio-data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="533">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NIO/src/main/java/Channle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5608856" vertical-offset="171" max-vertical-offset="874">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

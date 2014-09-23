@@ -1,6 +1,8 @@
-import java.io.FileNotFoundException;
+import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
@@ -13,10 +15,13 @@ import java.nio.channels.FileChannel;
  */
 public class Channle {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, URISyntaxException {
 
         // get random file
-        RandomAccessFile aFile = new RandomAccessFile("D:\\Users\\Loong\\Test\\nio_data.txt", "rw");
+
+        File file = new File(new URL(Thread.currentThread().getContextClassLoader().getResource("") + "nio-data.txt").toURI());
+
+        RandomAccessFile aFile = new RandomAccessFile(file, "rw");
         // get channel
         FileChannel inChannel = aFile.getChannel();
 

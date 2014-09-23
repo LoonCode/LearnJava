@@ -1,6 +1,6 @@
+import com.google.common.io.Resources;
 import org.quartz.*;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -16,8 +16,9 @@ public class SchedulerTest {
     public static void main(String[] args) throws SchedulerException {
 
         Properties properties = new Properties();
+
         try {
-            properties.load(new FileInputStream("D:\\other\\LearnJava\\Quartz\\target\\classes\\" + "quartz.properties"));
+            properties.load(Resources.getResource("quartz.properties").openStream());
         } catch (IOException e) {
             e.printStackTrace();
         }

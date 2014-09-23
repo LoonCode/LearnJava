@@ -1,3 +1,5 @@
+import com.google.common.io.Resources;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -18,8 +20,11 @@ public class Channle {
     public static void main(String[] args) throws IOException, URISyntaxException {
 
         // get random file
-
-        File file = new File(new URL(Thread.currentThread().getContextClassLoader().getResource("") + "nio-data.txt").toURI());
+        URL url = Resources.getResource("nio-data.txt");
+//        File file =new File(url.toURI());// right
+        File file = new File(url.getFile());// right
+//        File file =new File(url.getPath());// right
+//        File file =new File(new URL(Thread.currentThread().getContextClassLoader().getResource("")+"nio-data.txt").toURI()); // right
 
         RandomAccessFile aFile = new RandomAccessFile(file, "rw");
         // get channel

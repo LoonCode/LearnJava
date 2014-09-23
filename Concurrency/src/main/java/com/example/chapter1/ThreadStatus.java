@@ -2,10 +2,12 @@ package com.example.chapter1;
 
 import com.google.common.base.Charsets;
 import com.google.common.io.Files;
+import com.google.common.io.Resources;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.net.URL;
 
 /**
  * Created by Loon on 2014/4/22.
@@ -23,8 +25,8 @@ public class ThreadStatus implements Runnable {
         Thread threads[] = new Thread[10];
         Thread.State status[] = new Thread.State[10];
 
-//        URL url = Resources.getResource("nio-data.txt");
-        File file = new File("D:\\other\\LearnJava\\Concurrency\\src\\main\\resources\\nio-data.txt");
+        URL url = Resources.getResource("nio-data.txt");
+        File file = new File(url.getFile());
 
         for (int i = 0; i < 10; i++) {
             threads[i] = new Thread(new ThreadStatus(i));

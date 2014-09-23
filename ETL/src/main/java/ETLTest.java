@@ -1,5 +1,6 @@
 import com.google.common.collect.Maps;
 import com.google.common.io.Files;
+import com.google.common.io.Resources;
 import org.pentaho.di.core.KettleEnvironment;
 import org.pentaho.di.core.exception.KettleException;
 import org.pentaho.di.core.util.EnvUtil;
@@ -8,6 +9,7 @@ import org.pentaho.di.trans.TransMeta;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.nio.charset.Charset;
 import java.util.Map;
 import java.util.Properties;
@@ -22,7 +24,8 @@ public class ETLTest {
 
 //        runTransformation("C:\\Users\\Desktop\\ETL\\set.ktr",null);
 
-        File file = new File("C:\\Users\\Desktop\\ETL\\config.properties");
+        URL url = Resources.getResource("config.properties");
+        File file = new File(url.getFile());
 
         Properties properties = new Properties();
 
@@ -34,8 +37,7 @@ public class ETLTest {
 
         Map<String, String> variableMap = Maps.fromProperties(properties);
 
-
-        runTransformation("C:\\Users\\Desktop\\ETL\\下发.ktr", variableMap); //
+        runTransformation(Resources.getResource("test2.ktr").getFile(), variableMap); //
 //        Map<String, String> paramMap = new HashMap<>();
 //        paramMap.put("CONFIG_DIR", "path");
 //        runTransformation("path\\set.ktr", paramMap);

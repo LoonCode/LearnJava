@@ -30,7 +30,10 @@ public class BufferExample {
                 System.out.print((char) buf.get());  // read 1 byte at a time
             }
 
+            // clear()方法会清空整个缓冲区。compact()方法只会清除已经读过的数据。
             buf.clear();  //make buffer ready for writing
+            // buf.compact();
+
             bytesRead = fileChannel.read(buf);
         }
     }

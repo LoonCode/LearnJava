@@ -9,6 +9,7 @@ import java.nio.channels.FileChannel;
 
 /**
  * FileChannel 写入，读取，写入特定位置，截取
+ * @link http://ifeve.com/file-channel/
  */
 public class FileChannelExample {
 

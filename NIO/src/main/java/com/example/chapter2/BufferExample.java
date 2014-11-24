@@ -18,6 +18,7 @@ public class BufferExample {
         ByteBuffer buf = ByteBuffer.allocate(48);
         int bytesRead = fileChannel.read(buf);
 
+        // 通过调用Buffer.mark()方法，可以标记Buffer中的一个特定position。之后可以通过调用Buffer.reset()方法恢复到这个position。
         buf.mark();
         //call buffer.get() a couple of times, e.g. during parsing.
         buf.reset();  //set position back to mark.

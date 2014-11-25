@@ -1,3 +1,5 @@
+import java.io.Serializable;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Loong
@@ -5,7 +7,7 @@
  * Time: 下午3:28
  * To change this template use File | Settings | File Templates.
  */
-public class Dog extends  Animal {
+public class Dog extends Animal implements Serializable {
 
     private int foot;
 

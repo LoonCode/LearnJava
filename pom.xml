@@ -24,6 +24,8 @@
         <module>ETL</module>
         <module>Quartz</module>
         <module>Netty</module>
+        <module>Annotation</module>
+        <module>Other</module>
     </modules>
 
     <properties>

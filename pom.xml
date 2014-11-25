@@ -23,6 +23,7 @@
         <module>Generics</module>
         <module>ETL</module>
         <module>Quartz</module>
+        <module>Netty</module>
     </modules>
 
     <properties>

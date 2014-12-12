@@ -26,6 +26,7 @@
         <module>Netty</module>
         <module>Annotation</module>
         <module>Other</module>
+        <module>BeanValidation</module>
     </modules>
 
     <properties>
@@ -52,6 +53,11 @@
         <!--<version>281207</version>-->
         <!--</dependency>-->
 
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.2</version>
+        </dependency>
     </dependencies>
 
 </project>

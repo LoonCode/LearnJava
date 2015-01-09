@@ -22,7 +22,7 @@ public class MovieCache extends AbstractLoadCache<String, String> {
         for (Element link : links) {
             this.getCache().put(link.attr("href").substring(7), link.text());
         }
-        return null;
+        return this.getCache().getUnchecked(key);
     }
 
 }

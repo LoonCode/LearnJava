@@ -13,7 +13,7 @@ public class JsoupFirstTest {
 
     public static void main(String[] args) throws IOException {
 //        Document doc = Jsoup.connect("http://www.gewara.com/movie/ajax/getOpiItem.xhtml?movieid=208315566&fyrq=2015-01-09&cid=1").userAgent("Mozilla").get();
-        Document doc = Jsoup.connect("http://www.gewara.com/movie/searchMovie.xhtml").userAgent("Mozilla").get();
+        Document doc = Jsoup.connect("http://www.gewara.com/movie/searchCinema.xhtml?countycode=310115").userAgent("Mozilla").get();
 
 
         System.out.println(doc);

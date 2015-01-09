@@ -13,15 +13,14 @@ import java.io.IOException;
  */
 public class CinemaCache extends AbstractLoadCache<String, String> {
 
-
     @Override
     public String getData(String key) throws IOException {
 
         Document doc = Jsoup.connect("http://www.gewara.com/movie/searchCinema.xhtml?countycode=310115").userAgent("Mozilla").get();
-        Elements links = doc.select("a[href^=/movie][target=_blank][class=color3]");
+        Elements links = doc.select("a[href^=/cinema][target=_blank][class=color3]");
 
         for (Element link : links) {
-            this.getCache().put(link.attr("href").substring(7), link.text());
+            this.getCache().put(link.attr("href").substring(8), link.text());
         }
         return this.getCache().getUnchecked(key);
     }

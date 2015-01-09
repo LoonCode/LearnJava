@@ -4,6 +4,8 @@ import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
 
+import java.io.IOException;
+
 /**
  * Created by GuoLong on 14-7-8.
  */
@@ -19,7 +21,7 @@ public abstract class AbstractLoadCache<K, V> {
 
             });
 
-    public abstract V getData(K key);
+    public abstract V getData(K key) throws IOException;
 
     public LoadingCache<K, V> getCache() {
         return cache;

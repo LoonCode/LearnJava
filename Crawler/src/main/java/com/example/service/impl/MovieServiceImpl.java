@@ -15,4 +15,9 @@ public class MovieServiceImpl implements MovieService {
 
         return null;
     }
+
+    @Override
+    public List<Movie> getMovieList(String startTime, String movieName) {
+        return null;
+    }
 }

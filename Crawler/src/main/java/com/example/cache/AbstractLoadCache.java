@@ -27,7 +27,4 @@ public abstract class AbstractLoadCache<K, V> {
         return cache;
     }
 
-    public void setCache(LoadingCache<K, V> cache) {
-        this.cache = cache;
-    }
 }

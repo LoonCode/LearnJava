@@ -27,6 +27,7 @@
         <module>Annotation</module>
         <module>Other</module>
         <module>BeanValidation</module>
+        <module>Crawler</module>
     </modules>
 
     <properties>

@@ -1,4 +1,4 @@
-package com.example.crawler4j;
+package com.example.test.crawler4j;
 
 import edu.uci.ics.crawler4j.crawler.CrawlConfig;
 import edu.uci.ics.crawler4j.crawler.CrawlController;
@@ -31,7 +31,7 @@ public class FirstCrawlerController {
          * URLs that are fetched and then the crawler starts following links
          * which are found in these pages
          */
-        controller.addSeed("http://www.gewara.com/movie/");
+        controller.addSeed("http://www.gewara.com/movie/208315566");
 
         /*
          * Start the crawl. This is a blocking operation, meaning that your code

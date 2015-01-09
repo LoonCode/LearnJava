@@ -1,4 +1,4 @@
-package com.example.nutch;
+package com.example.test.nutch;
 
 /**
  * Created by Loon on 2015/1/9.

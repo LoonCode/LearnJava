@@ -1,4 +1,4 @@
-package com.example.crawler4j;
+package com.example.test.crawler4j;
 
 import edu.uci.ics.crawler4j.crawler.Page;
 import edu.uci.ics.crawler4j.crawler.WebCrawler;
@@ -28,7 +28,7 @@ public class FirstCrawler extends WebCrawler {
     public boolean shouldVisit(Page page, WebURL url) {
         String href = url.getURL().toLowerCase();
 
-        return !BINARY_FILES_EXTENSIONS.matcher(href).matches() && href.startsWith("http://www.gewara.com/movie/");
+        return !BINARY_FILES_EXTENSIONS.matcher(href).matches() && href.startsWith("http://www.gewara.com/movie/208315566");
     }
 
     /**

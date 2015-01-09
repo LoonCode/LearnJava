@@ -13,4 +13,6 @@ public interface MovieService {
 
     List<Movie> getMovieList(String startTime, String movieName);
 
+    List<Movie> getMovieList(String movieName);
+
 }

@@ -1,4 +1,4 @@
-package com.loon.object;
+package com.example.basic;
 
 import com.google.common.base.Objects;
 
@@ -10,7 +10,16 @@ public class ObjectTest {
     private  String  name;
     private  String  age;
 
+    public static void main(String[] args) {
 
+        ObjectTest objectTest = new ObjectTest();
+        objectTest.setAge("17");
+        objectTest.setName("test");
+
+        System.out.println(Objects.toStringHelper(objectTest).toString());
+
+
+    }
 
     public String getAge() {
         return age;
@@ -26,16 +35,5 @@ public class ObjectTest {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public static void main(String[] args) {
-
-        ObjectTest  objectTest = new ObjectTest();
-        objectTest.setAge("17");
-        objectTest.setName("test");
-
-        System.out.println(Objects.toStringHelper(objectTest).toString());
-
-
     }
 }

@@ -1,4 +1,4 @@
-package com.example.string;
+package com.example.basic;
 
 import com.google.common.base.Joiner;
 import com.google.common.base.Splitter;

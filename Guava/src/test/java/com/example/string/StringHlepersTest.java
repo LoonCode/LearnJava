@@ -1,10 +1,10 @@
 package com.example.string;
 
+import com.example.basic.StringHlepers;
 import com.google.common.collect.Lists;
 import junit.framework.TestCase;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

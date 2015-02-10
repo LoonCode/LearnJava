@@ -11,7 +11,7 @@ import java.util.Random;
  * Created by Loon on 2015/2/9.
  */
 public class RoShamBo {
-    private  static Random random =new Random(47);
+    private  static Random random =new Random();
 
     public static void main(String[] args) {
 

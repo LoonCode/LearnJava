@@ -1,4 +1,4 @@
-package com.example.decorator;
+package com.example.decorator.example2;
 
 import java.util.Calendar;
 

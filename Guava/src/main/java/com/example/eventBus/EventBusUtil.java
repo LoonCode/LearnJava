@@ -7,7 +7,6 @@ import com.google.common.eventbus.EventBus;
  */
 public class EventBusUtil {
 
-    // todo:全局单例？
     public static final EventBus eventBus = new EventBus();
 
     public void fireEvent(Object listener, Object eventName) {

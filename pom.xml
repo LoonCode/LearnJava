@@ -29,6 +29,7 @@
         <module>BeanValidation</module>
         <module>Crawler</module>
         <module>AndroidTest</module>
+        <module>Spring</module>
     </modules>
 
     <properties>

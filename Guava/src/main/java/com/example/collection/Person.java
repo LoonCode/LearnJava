@@ -1,5 +1,7 @@
 package com.example.collection;
 
+import com.google.common.base.Objects;
+
 /**
  * Created by Loon on 2014/7/1.
  */
@@ -27,5 +29,14 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+
+    @Override
+    public String toString() {
+        return Objects.toStringHelper(this)
+                .add("name", name)
+                .add("age", age)
+                .toString();
     }
 }

@@ -1,8 +1,13 @@
 package com.example.collection;
 
 import com.google.common.base.Function;
+import com.google.common.base.Objects;
+import com.google.common.collect.ImmutableListMultimap;
+import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
+import com.google.common.collect.Multimaps;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
@@ -40,6 +45,7 @@ public class ListTest {
 
         System.out.println();
         transformListToMap();
+        getAgeGroup();
     }
 
 
@@ -70,6 +76,33 @@ public class ListTest {
         System.out.println("end names");
 
 //        Map<String,Integer> map2= transformEntries();
+
+    }
+
+
+    /**
+     * According to age group
+     */
+    private static  void getAgeGroup(){
+
+        List<Person> stringList = newArrayList(new Person("test", 12), new Person("test2", 22), new Person("test3", 32), new Person("test4", 32));
+
+
+        ImmutableListMultimap<Integer, Person> resultMap = Multimaps.index(stringList, new Function<Person, Integer>() {
+            public Integer apply(Person webSearchResultModel) {
+                return webSearchResultModel.getAge();
+            }
+        });
+
+
+        ImmutableMap<Integer, Collection<Person>> map = resultMap.asMap();
+
+        for (Collection<Person> persons : map.values()) {
+            System.out.println(persons.toString());
+//            for (Person person : persons) {
+//                System.out.println(person.toString());
+//            }
+        }
 
     }
 

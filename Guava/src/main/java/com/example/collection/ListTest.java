@@ -1,7 +1,6 @@
 package com.example.collection;
 
 import com.google.common.base.Function;
-import com.google.common.base.Objects;
 import com.google.common.collect.ImmutableListMultimap;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;

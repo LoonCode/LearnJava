@@ -45,7 +45,6 @@ public class ListTest {
         getAgeGroup();
         order();
         chineseOrder();
-        chineseOrder2();
     }
 
 

@@ -12,7 +12,7 @@
     <artifactId>ETL</artifactId>
 
     <properties>
-        <pentaho.kettle.version>5.1.0.0-752</pentaho.kettle.version>
+        <pentaho.kettle.version>5.3.0.0-200</pentaho.kettle.version>
 
         <!-- JDBC Driver -->
         <jdbc.driver.groupId>com.oracle</jdbc.driver.groupId>
@@ -29,9 +29,9 @@
             <version>${pentaho.kettle.version}</version>
         </dependency>
         <dependency>
-        <groupId>pentaho.kettle</groupId>
-        <artifactId>kettle-engine</artifactId>
-        <version>${pentaho.kettle.version}</version>
+            <groupId>pentaho-kettle</groupId>
+            <artifactId>kettle-engine</artifactId>
+            <version>${pentaho.kettle.version}</version>
         </dependency>
 
         <dependency>

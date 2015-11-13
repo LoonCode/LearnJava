@@ -93,7 +93,6 @@ public class ListTest {
             }
         });
 
-
         ImmutableMap<Integer, Collection<Person>> map = resultMap.asMap();
 
         for (Collection<Person> persons : map.values()) {
@@ -134,7 +133,6 @@ public class ListTest {
                 return new PinyinComparator().compare(personOne.getName(), personTwo.getName());
             }
         };
-
 
         System.out.println(Collections2.orderedPermutations(stringList, personOrdering));
 

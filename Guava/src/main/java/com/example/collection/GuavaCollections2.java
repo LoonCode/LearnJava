@@ -65,7 +65,6 @@ public class GuavaCollections2 {
     public static void demonstrateTransform() {
 
         Function<String, String> function = new Function<String, String>() {
-            @Override
             public String apply(String input) {
                 return input.toUpperCase();
             }

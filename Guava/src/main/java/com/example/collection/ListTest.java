@@ -53,7 +53,6 @@ public class ListTest {
 
 
         Map<String, Person> map = Maps.uniqueIndex(stringList, new Function<Person, String>() {
-            @Override
             public String apply(Person person) {
                 return person.getName();
             }

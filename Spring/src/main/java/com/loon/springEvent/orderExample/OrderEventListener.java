@@ -13,6 +13,6 @@ public class OrderEventListener implements ApplicationListener<OrderEvent> {
 
     public void onApplicationEvent(OrderEvent orderEvent) {
 
-        System.out.println("李四收到了新的内容：" + ((Order)orderEvent.getSource()).getCreateTime());
+        System.out.println("收到了新的内容：" + ((Order)orderEvent.getSource()).getCreateTime());
     }
 }

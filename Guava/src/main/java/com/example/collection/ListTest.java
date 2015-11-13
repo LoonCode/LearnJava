@@ -1,10 +1,8 @@
 package com.example.collection;
 
 import com.google.common.base.Function;
-import com.google.common.collect.ImmutableListMultimap;
-import com.google.common.collect.ImmutableMap;
-import com.google.common.collect.Maps;
-import com.google.common.collect.Multimaps;
+import com.google.common.collect.*;
+import com.loon.comparator.PinyinComparator;
 
 import java.util.Collection;
 import java.util.List;
@@ -45,6 +43,9 @@ public class ListTest {
         System.out.println();
         transformListToMap();
         getAgeGroup();
+        order();
+        chineseOrder();
+        chineseOrder2();
     }
 
 
@@ -81,7 +82,7 @@ public class ListTest {
     /**
      * According to age group
      */
-    private static  void getAgeGroup(){
+    private static void getAgeGroup() {
 
         List<Person> stringList = newArrayList(new Person("test", 12), new Person("test2", 22), new Person("test3", 32), new Person("test4", 32));
 
@@ -97,10 +98,45 @@ public class ListTest {
 
         for (Collection<Person> persons : map.values()) {
             System.out.println(persons.toString());
-//            for (Person person : persons) {
-//                System.out.println(person.toString());
-//            }
         }
+
+    }
+
+
+    /**
+     * order by list
+     */
+    private static void order() {
+
+        List<Person> stringList = newArrayList(new Person("test", 12), new Person("test2", 22), new Person("test4", 35), new Person("test3", 32));
+
+        Ordering<Person> personOrdering = Ordering.natural().nullsFirst().onResultOf(new Function<Person, Comparable>() {
+            public Comparable apply(Person person) {
+                return person.getName();
+            }
+        });
+
+        System.out.println(Collections2.orderedPermutations(stringList, personOrdering));
+
+    }
+
+
+    /**
+     * order by list
+     */
+    private static void chineseOrder() {
+
+        List<Person> stringList = newArrayList(new Person("测试", 12), new Person("测试2", 22), new Person("测试你好", 35), new Person("你好测试", 32));
+
+        Ordering<Person> personOrdering = new Ordering<Person>() {
+            @Override
+            public int compare(Person personOne, Person personTwo) {
+                return new PinyinComparator().compare(personOne.getName(), personTwo.getName());
+            }
+        };
+
+
+        System.out.println(Collections2.orderedPermutations(stringList, personOrdering));
 
     }
 

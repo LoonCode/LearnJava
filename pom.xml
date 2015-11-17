@@ -30,6 +30,7 @@
         <module>Crawler</module>
         <module>AndroidTest</module>
         <module>Spring</module>
+        <module>Wechat</module>
     </modules>
 
     <properties>

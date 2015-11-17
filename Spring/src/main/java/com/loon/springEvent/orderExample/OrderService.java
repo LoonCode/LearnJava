@@ -2,6 +2,7 @@ package com.loon.springEvent.orderExample;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.stereotype.Component;
 
 /**
@@ -16,4 +17,6 @@ public class OrderService {
     public void createOrder(Order order) {
         this.publisher.publishEvent(new OrderEvent(order));
     }
+
+
 }

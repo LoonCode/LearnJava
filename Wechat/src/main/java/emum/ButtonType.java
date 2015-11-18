@@ -4,7 +4,7 @@ package emum;
  * Created by Loon on 2015/11/17.
  */
 public enum  ButtonType {
-    CLICK("CLICK"), VIEW("VIEW"), MEDIAID("MEDIA_ID");
+    CLICK("click"), VIEW("view"), MEDIAID("media_id");
 
     private String type;
 

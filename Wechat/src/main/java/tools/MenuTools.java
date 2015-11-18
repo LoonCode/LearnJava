@@ -24,7 +24,9 @@ public class MenuTools {
     public static void createMenu(Map<String, List<WechatMenu>> menuMap) throws IOException {
 
         String accessToken = CacheUtil.getAccessToken();
+
         String url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=" + accessToken;
+        System.out.println(url);
         HttpClient client = HttpClientBuilder.create().build();
         HttpPost post = new HttpPost(url);
 
@@ -46,8 +48,6 @@ public class MenuTools {
     }
 
     public static void main(String[] args) throws IOException {
-
-
 
         List<WechatMenu> wechatMenuList = new ArrayList<WechatMenu>();
 
@@ -72,6 +72,7 @@ public class MenuTools {
         }
 
         wechatMenuList.add(WechatMenu.createMediaMenu("视频","http://v.qq.com/"));
+
 
         Map<String, List<WechatMenu>> menuMap= new LinkedHashMap<String, List<WechatMenu>>();
         menuMap.put("button",wechatMenuList);

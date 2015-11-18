@@ -24,9 +24,7 @@ public class MenuTools {
     public static void createMenu(Map<String, List<WechatMenu>> menuMap) throws IOException {
 
         String accessToken = CacheUtil.getAccessToken();
-        System.out.println(accessToken);
         String url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=" + accessToken;
-        System.out.println(url);
         HttpClient client = HttpClientBuilder.create().build();
         HttpPost post = new HttpPost(url);
 

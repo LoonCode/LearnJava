@@ -10,7 +10,7 @@ import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
 
 /**
- * @author GuoLong
+ * @author Loon
  */
 public class InputStreamToMap {
 

@@ -3,13 +3,13 @@ package tools;
 
 import bean.WechatMenu;
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.ContentType;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
+import util.CacheUtil;
 import util.InputStreamToMap;
 
 import java.io.IOException;
@@ -23,10 +23,9 @@ public class MenuTools {
 
     public static void createMenu(Map<String, List<WechatMenu>> menuMap) throws IOException {
 
-        ResourceBundle conf = ResourceBundle.getBundle("config");
-//        String accessToken = BasicSupport.getAccessToken(conf.getString("appId"), conf.getString("appSecret"));
-
-        String url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=" + "vB55uLa1R_JoJzbMdobrUu7VyLCT1TWkzk0t61bVyysnWCY4Mywu_xKsimcH90gGGhABPpilfqW_9TuO1yHEFHtxsUgztt-agmPZ1ByWT7YQXPhAFAJQI";
+        String accessToken = CacheUtil.getAccessToken();
+        System.out.println(accessToken);
+        String url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=" + accessToken;
         System.out.println(url);
         HttpClient client = HttpClientBuilder.create().build();
         HttpPost post = new HttpPost(url);
@@ -56,25 +55,25 @@ public class MenuTools {
 
         {
             List<WechatMenu> subButtonList = new ArrayList<WechatMenu>();
-            subButtonList.add(new WechatMenu().createMediaMenu("菜单1-1","http://v.qq.com/"));
-            subButtonList.add(new WechatMenu().createMediaMenu("菜单1-2","http://v.qq.com/"));
-            subButtonList.add(new WechatMenu().createMediaMenu("菜单1-3","http://v.qq.com/"));
+            subButtonList.add(WechatMenu.createMediaMenu("菜单1-1","http://v.qq.com/"));
+            subButtonList.add(WechatMenu.createMediaMenu("菜单1-2","http://v.qq.com/"));
+            subButtonList.add(WechatMenu.createMediaMenu("菜单1-3","http://v.qq.com/"));
 
-            wechatMenuList.add(new WechatMenu().createLevelOneMenu("扫码",subButtonList));
+            wechatMenuList.add(WechatMenu.createMenu("扫码",subButtonList));
 
         }
 
         {
             List<WechatMenu> subButtonList = new ArrayList<WechatMenu>();
-            subButtonList.add(new WechatMenu().createMediaMenu("菜单2-1","http://v.qq.com/"));
-            subButtonList.add(new WechatMenu().createMediaMenu("菜单2-2","http://v.qq.com/"));
-            subButtonList.add(new WechatMenu().createMediaMenu("菜单2-3","http://v.qq.com/"));
+            subButtonList.add(WechatMenu.createMediaMenu("菜单2-1","http://v.qq.com/"));
+            subButtonList.add(WechatMenu.createMediaMenu("菜单2-2","http://v.qq.com/"));
+            subButtonList.add(WechatMenu.createMediaMenu("菜单2-3","http://v.qq.com/"));
 
-            wechatMenuList.add(new WechatMenu().createLevelOneMenu("发图",subButtonList));
+            wechatMenuList.add(WechatMenu.createMenu("发图",subButtonList));
 
         }
 
-        wechatMenuList.add(new WechatMenu().createMediaMenu("视频","http://v.qq.com/"));
+        wechatMenuList.add(WechatMenu.createMediaMenu("视频","http://v.qq.com/"));
 
         Map<String, List<WechatMenu>> menuMap= new LinkedHashMap<String, List<WechatMenu>>();
         menuMap.put("button",wechatMenuList);

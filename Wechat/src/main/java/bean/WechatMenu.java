@@ -17,18 +17,17 @@ public class WechatMenu {
     private String media_id;        //media_id类型和view_limited类型必须	调用新增永久素材接口返回的合
 
 
-    public WechatMenu createClickMenu(String name, String key) {
+    public static WechatMenu createClickMenu(String name, String key) {
 
         WechatMenu wechatMenu = new WechatMenu();
         wechatMenu.setType(ButtonType.CLICK.getType());
         wechatMenu.setName(name);
         wechatMenu.setKey(key);
 
-
         return  wechatMenu;
     }
 
-    public WechatMenu createMediaMenu(String name, String url) {
+    public static WechatMenu createMediaMenu(String name, String url) {
 
         WechatMenu wechatMenu = new WechatMenu();
         wechatMenu.setType(ButtonType.VIEW.getType());
@@ -40,7 +39,7 @@ public class WechatMenu {
 
 
 
-    public WechatMenu createLevelOneMenu(String name, List<WechatMenu> wechatMenuList) {
+    public static WechatMenu createMenu(String name, List<WechatMenu> wechatMenuList) {
 
         WechatMenu wechatMenu = new WechatMenu();
         wechatMenu.setName(name);

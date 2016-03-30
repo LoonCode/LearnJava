@@ -82,4 +82,20 @@ public class Teacher {
                 .add("phoneNumber", phoneNumber)
                 .toString();
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Teacher teacher = (Teacher) o;
+
+        return phoneNumber.equals(teacher.phoneNumber);
+
+    }
+
+    @Override
+    public int hashCode() {
+        return phoneNumber.hashCode();
+    }
 }

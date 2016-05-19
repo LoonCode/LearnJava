@@ -31,6 +31,9 @@
         <module>AndroidTest</module>
         <module>Spring</module>
         <module>Wechat</module>
+        <module>Aigorithms</module>
+        <module>SpringBoot</module>
+        <module>Redis</module>
     </modules>
 
     <properties>
@@ -44,12 +47,6 @@
             <version>17.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
-        </dependency>
 
         <!--<dependency>-->
         <!--<groupId>org.coconut.forkjoin</groupId>-->
@@ -62,9 +59,57 @@
             <artifactId>joda-time</artifactId>
             <version>2.2</version>
         </dependency>
+
+
+        <!-- log-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>1.7.21</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.1.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.logback-extensions</groupId>
+            <artifactId>logback-ext-spring</artifactId>
+            <version>0.1.4</version>
+        </dependency>
+
+
+        <!--test-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>4.2.6.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.191</version>
+            <scope>runtime</scope>
+        </dependency>
+
     </dependencies>
 
     <repositories>
+        <repository>
+            <id>oschina</id>
+            <name>oschina</name>
+            <url>http://maven.oschina.net/content/groups/public/</url>
+        </repository>
         <repository>
             <id>java-repo</id>
             <name>java Repository</name>
@@ -87,11 +132,7 @@
             <name>apache Repository</name>
             <url>https://repository.apache.org/content/groups/public/</url>
         </repository>
-        <repository>
-            <id>oschina</id>
-            <name>oschina</name>
-            <url>http://maven.oschina.net/content/groups/public/</url>
-        </repository>
+
         <repository>
             <id>sourceforge-releases</id>
             <name>Sourceforge Releases</name>

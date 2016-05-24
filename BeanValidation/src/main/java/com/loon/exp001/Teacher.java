@@ -1,3 +1,5 @@
+package com.loon.exp001;
+
 import com.google.common.base.Objects;
 
 import javax.validation.constraints.Future;

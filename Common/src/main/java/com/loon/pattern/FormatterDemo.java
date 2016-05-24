@@ -1,3 +1,5 @@
+package com.loon.pattern;
+
 import java.util.Formatter;
 
 /**
